@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="custom_horizontal_margin">10dp</dimen>
+    <dimen name="custom_vertical_margin">10dp</dimen>
+    <dimen name="image_width">50dp</dimen>
+    <dimen name="image_height">50dp</dimen>
+    <dimen name="chatt_image_width">60dp</dimen>
+    <dimen name="chatt_image_height">60dp</dimen>
+    <dimen name="kakao_margin">50dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="gridimage_width">50dp</dimen>
+    <dimen name="gridimage_height">50dp</dimen>
+    <dimen name="channelimage_width">150dp</dimen>
+    <dimen name="channelimage_height">100dp</dimen>
+</resources>

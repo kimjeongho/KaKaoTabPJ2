@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="channel_item">
+        <item> 바다 풍경</item>
+        <item> 저녁 노을</item>
+        <item> 낚시터</item>
+        <item> 들판 풍경</item>
+        <item> 등대 풍경</item>
+        <item> 수중 마을</item>
+        <item> 전망대</item>
+        <item> 저녁 노을</item>
+    </string-array>
+</resources>

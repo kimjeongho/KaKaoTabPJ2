@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:id="@+id/image_myprofile"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="플러스친구"
+        android:id="@+id/text_ad"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/image_myprofile"
+        android:layout_toEndOf="@+id/image_myprofile" />
+</RelativeLayout>

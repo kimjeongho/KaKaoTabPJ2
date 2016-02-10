@@ -1,0 +1,207 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    android:weightSum="6"
+    tools:context="com.example.kimjh.kakaotabpj.SettingFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:id="@+id/rel1"
+        android:background="#FFFFFF">
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view"
+            app:orientation="horizontal"
+            app:columnCount="4"
+            >
+
+            <ImageView android:id="@+id/grid_1"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_01"
+                />
+
+            <ImageView android:id="@+id/grid_2"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_02" />
+
+            <ImageView android:id="@+id/grid_3"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_03" />
+
+            <ImageView android:id="@+id/grid_4"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_04" />
+
+            <ImageView android:id="@+id/grid_5"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_05" />
+
+            <ImageView
+                android:id="@+id/grid_6"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_06" />
+
+            <ImageView
+                android:id="@+id/grid_7"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_07" />
+
+            <ImageView
+                android:id="@+id/grid_8"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_08" />
+
+            <ImageView
+                android:id="@+id/grid_9"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_09" />
+
+            <ImageView
+                android:id="@+id/grid_10"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_10" />
+
+            <ImageView
+                android:id="@+id/grid_11"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_11" />
+
+            <ImageView
+                android:id="@+id/grid_12"
+                android:layout_width="@dimen/gridimage_width"
+                android:layout_height="@dimen/gridimage_height"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@drawable/gridimage_12" />
+
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view1"
+            app:orientation="horizontal"
+            app:columnCount="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:text="카카오앱"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@mipmap/ic_launcher"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:background="@mipmap/ic_launcher"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="전체보기" />
+
+        </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        >
+        <ImageView
+            android:layout_width="@dimen/gridimage_width"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/gridimage_13"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/gridimage_width"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/gridimage_14"
+            />
+        <ImageView
+            android:layout_width="@dimen/gridimage_width"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/gridimage_15"
+            />
+        <ImageView
+            android:layout_width="@dimen/gridimage_width"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/gridimage_16"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

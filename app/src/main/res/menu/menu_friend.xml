@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_friend1"
+        android:title="친구추가"
+        android:icon="@drawable/ic_user"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_friend2"
+        android:title="친구 목록 편집"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="101"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_friend3"
+        android:title="친구 관리"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="102"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_friend4"
+        android:title="그룹 만들기"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="103"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_friend5"
+        android:title="그룹 관리"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="106"
+        app:showAsAction="never"/>
+    <!-- orderIncategory : 메뉴가 출력되는 순서
+        showAsAction :
+        nevar : ActionBar에 MenuItem을 보여주지 않는다
+        always : ActionBar에 MenuItem을 항상 보여준다.-->
+</menu>
