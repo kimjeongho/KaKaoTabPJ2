@@ -74,7 +74,7 @@ public class ChannelFragment extends Fragment {
                 id.iconId = ICON_IDS[j];
                 id.titleView =items[j];
                 //cd.iconId=R.mipmap.ic_launcher;
-                mAdapter.put("group"+i,id);
+                mAdapter.put("더보기",id);
             }
         }
     }

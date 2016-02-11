@@ -44,11 +44,13 @@ public class ChannelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     public int getItemViewType(int position) {
         for (int i = 0 ; i < items.size() ; i++){
             ChannelGroupData group = items.get(i);
-            if(position < 1)return VIEW_TYPE_GROUP;
-            position --;
             int itemCount = group.children.size();
+
             if(position < itemCount) return VIEW_TYPE_ITEM;
             position -= itemCount;
+
+            if(position < 1)return VIEW_TYPE_GROUP;
+            position --;
         }
         return super.getItemViewType(position);
     }       //???
@@ -58,13 +60,12 @@ public class ChannelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         LayoutInflater inflater = LayoutInflater.from(parent.getContext()); //??
         View view;
         switch (viewType){
-            case VIEW_TYPE_GROUP:
-                view = inflater.inflate(R.layout.channel_group, parent, false);
-                return new ChannelGroupHolder(view);
-
             case VIEW_TYPE_ITEM:
                 view = inflater.inflate(R.layout.channel_item, parent, false);
                 return new ChannelItemHolder(view);
+            case VIEW_TYPE_GROUP:
+                view = inflater.inflate(R.layout.channel_group, parent, false);
+                return new ChannelGroupHolder(view);
         }
         return null;
     }
@@ -73,11 +74,6 @@ public class ChannelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         for (int i = 0 ; i < items.size() ; i++){
             ChannelGroupData g = items.get(i);
-            if(position < 1){
-                ((ChannelGroupHolder)holder).setGroupItem(g);
-                return;
-            }
-            position --;
             int itemCount = g.children.size();
             if(position < itemCount) {
                 ChannelItemData itemData = g.children.get(position);
@@ -85,6 +81,12 @@ public class ChannelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 return;
             }
             position -= itemCount;
+            if(position < 1){
+                ((ChannelGroupHolder)holder).setGroupItem(g);
+                return;
+            }
+            position --;
+
         }
     }
 
