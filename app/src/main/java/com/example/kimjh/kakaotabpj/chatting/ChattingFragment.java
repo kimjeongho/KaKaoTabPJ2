@@ -1,4 +1,4 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.chatting;
 
 
 import android.content.Intent;
@@ -10,10 +10,10 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.kimjh.kakaotabpj.R;
 
 
 /**

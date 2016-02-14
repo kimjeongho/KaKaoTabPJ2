@@ -5,6 +5,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,12 +13,7 @@ public class MainActivity extends AppCompatActivity {
     ViewPager pager;
     MyPagerAdapter mAdapter;
 
-    static  final int[] ICON_IDS = {
-            R.drawable.tab1,
-            R.drawable.tab2,
-            R.drawable.tab3,
-            R.drawable.tab4
-    };  // tabIcon Image...
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,8 +28,17 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(pager); //TabLayout에 ViewPager 설정
         tabLayout.removeAllTabs(); // ??
 
-        for (int i=0; i < 4; i++){
-            tabLayout.addTab(tabLayout.newTab().setIcon(getResources().getDrawable(ICON_IDS[i])));
-        }
+       /* for (int i=0; i < 4; i++){*/
+//            tabLayout.addTab(tabLayout.newTab().setIcon(getResources().getDrawable(ICON_IDS[i])));
+            Tabview_friend tabview_friend= new Tabview_friend(this);
+            tabLayout.addTab(tabLayout.newTab().setCustomView(tabview_friend),0);
+            Tabview_chatt tabview_chatt = new Tabview_chatt(this);
+            tabLayout.addTab(tabLayout.newTab().setCustomView(tabview_chatt),1);
+            Tabview_channel tabview_channel = new Tabview_channel(this);
+            tabLayout.addTab(tabLayout.newTab().setCustomView(tabview_channel),2);
+            Tabview_setting tabview_setting = new Tabview_setting(this);
+            tabLayout.addTab(tabLayout.newTab().setCustomView(tabview_setting),3);
+
+//        }
     }
 }

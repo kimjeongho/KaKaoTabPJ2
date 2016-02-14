@@ -1,4 +1,4 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.friend;
 
 
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
+
+import com.example.kimjh.kakaotabpj.R;
 
 
 /**

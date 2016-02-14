@@ -1,9 +1,11 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.chatting;
 
 import android.content.Context;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.kimjh.kakaotabpj.R;
 
 /**
  * Created by kimjh on 2016-02-09.
@@ -19,7 +21,7 @@ public class ChattingListView extends FrameLayout{
     ChattingListData mData;
 
     private void init() {
-        inflate(getContext(),R.layout.chattinglist_item,this);
+        inflate(getContext(), R.layout.chattinglist_item,this);
         iconView = (ImageView)findViewById(R.id.image_icon);
         nameView = (TextView)findViewById(R.id.text_name);
         descView = (TextView)findViewById(R.id.text_description);

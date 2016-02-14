@@ -1,8 +1,10 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.channel;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.kimjh.kakaotabpj.R;
 
 /**
  * Created by kimjh on 2016-02-10.

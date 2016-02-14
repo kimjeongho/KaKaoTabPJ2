@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/custom_horizontal_margin"
     android:paddingRight="@dimen/custom_horizontal_margin"
-    tools:context="com.example.kimjh.kakaotabpj.ChattingFragment">
+    tools:context=".chatting.ChattingFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ListView

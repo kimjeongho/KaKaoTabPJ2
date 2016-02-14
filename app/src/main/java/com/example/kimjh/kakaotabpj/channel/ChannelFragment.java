@@ -1,4 +1,4 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.channel;
 
 
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.kimjh.kakaotabpj.R;
 
 
 /**

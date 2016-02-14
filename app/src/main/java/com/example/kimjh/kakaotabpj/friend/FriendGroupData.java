@@ -1,4 +1,4 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.friend;
 
 import java.util.ArrayList;
 import java.util.List;

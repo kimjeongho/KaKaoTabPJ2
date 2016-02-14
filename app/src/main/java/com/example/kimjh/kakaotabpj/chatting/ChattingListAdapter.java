@@ -1,4 +1,4 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.chatting;
 
 import android.view.View;
 import android.view.ViewGroup;

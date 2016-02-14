@@ -4,7 +4,7 @@
     android:paddingLeft="@dimen/custom_horizontal_margin"
     android:paddingRight="@dimen/custom_horizontal_margin"
     android:layout_height="match_parent"
-    tools:context="com.example.kimjh.kakaotabpj.FriendFragment">
+    tools:context=".friend.FriendFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ExpandableListView

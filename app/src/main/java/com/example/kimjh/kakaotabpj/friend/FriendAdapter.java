@@ -1,4 +1,4 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.friend;
 
 import android.view.View;
 import android.view.ViewGroup;

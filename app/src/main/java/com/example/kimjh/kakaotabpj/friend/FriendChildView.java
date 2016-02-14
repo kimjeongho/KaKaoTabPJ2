@@ -1,9 +1,11 @@
-package com.example.kimjh.kakaotabpj;
+package com.example.kimjh.kakaotabpj.friend;
 
 import android.content.Context;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.kimjh.kakaotabpj.R;
 
 /**
  * Created by kimjh on 2016-02-09.
