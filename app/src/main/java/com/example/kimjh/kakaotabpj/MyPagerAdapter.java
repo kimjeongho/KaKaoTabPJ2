@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.example.kimjh.kakaotabpj.channel.ChannelFragment;
 import com.example.kimjh.kakaotabpj.chatting.ChattingFragment;
 import com.example.kimjh.kakaotabpj.friend.FriendFragment;
+import com.example.kimjh.kakaotabpj.setting.SettingFragment;
 
 /**
  * Created by kimjh on 2016-02-09.

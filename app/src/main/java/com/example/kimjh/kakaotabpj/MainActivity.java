@@ -5,7 +5,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
+
+import com.example.kimjh.kakaotabpj.tabview.Tabview_channel;
+import com.example.kimjh.kakaotabpj.tabview.Tabview_chatt;
+import com.example.kimjh.kakaotabpj.tabview.Tabview_friend;
+import com.example.kimjh.kakaotabpj.tabview.Tabview_setting;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="#f2f2f2"
     android:weightSum="6"
-    tools:context="com.example.kimjh.kakaotabpj.SettingFragment">
+    tools:context=".setting.SettingFragment">
 
 
     <!-- TODO: Update blank fragment layout -->
@@ -27,7 +27,7 @@
             app:columnCount="4"
             >
 
-            <ImageView android:id="@+id/grid_1"
+            <ImageView android:id="@+id/image_profile"
                 android:layout_width="@dimen/gridimage_width"
                 android:layout_height="@dimen/gridimage_height"
                 app:layout_columnWeight="1"
