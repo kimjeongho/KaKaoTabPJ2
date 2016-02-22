@@ -32,8 +32,7 @@ public class EditActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String profile = profileEdit.getText().toString();
                 PropertyManager.getInstance().setProfile(profile);
-                Intent intent = new Intent(EditActivity.this, ProfileActivity.class);
-                startActivity(intent);
+
                 finish();
             }
         });

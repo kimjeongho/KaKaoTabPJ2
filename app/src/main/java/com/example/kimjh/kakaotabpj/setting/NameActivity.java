@@ -32,8 +32,7 @@ public class NameActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String name = nameEdit.getText().toString();
                 PropertyManager.getInstance().setUserName(name);
-                Intent intent = new Intent(NameActivity.this, ProfileActivity.class);
-                startActivity(intent);
+
                 finish();
             }
         });

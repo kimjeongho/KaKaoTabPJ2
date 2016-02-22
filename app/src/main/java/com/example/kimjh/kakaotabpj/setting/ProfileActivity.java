@@ -26,16 +26,13 @@ public class ProfileActivity extends AppCompatActivity {
         setSupportActionBar((Toolbar) findViewById(R.id.main_toolbar));
         setTitle("내 프로필 관리");
 
-
-
-       /* ImageView riv = (ImageView)findViewById(R.id.image_icon);
+        /*ImageView riv = (ImageView)findViewById(R.id.image_icon);
         Bitmap bm = ((BitmapDrawable)getResources().getDrawable(R.drawable.a1443687949897)).getBitmap();
         riv.setImageBitmap(bm);*/
 
         nameView = (TextView)findViewById(R.id.text_name);
         profileView = (TextView)findViewById(R.id.text_profile);
-        nameView.setText(PropertyManager.getInstance().getUserName());
-        profileView.setText(PropertyManager.getInstance().getProfile());
+
         nameView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,5 +48,12 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        nameView.setText(PropertyManager.getInstance().getUserName());
+        profileView.setText(PropertyManager.getInstance().getProfile());
     }
 }
